@@ -1,7 +1,6 @@
 import React from 'react'
 import profile from '../profile.jpg'
-import linkedin from '../linkedin-in.svg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Linkedin from '../Linkedin.png'
 import mail from '../Mail.png'
 
 const Info = () => {
@@ -19,8 +18,7 @@ const Info = () => {
         </button>
 
         <button className='social-button'>
-          {/* <img src={linkedin} alt='social icon' /> */}
-          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          <img src={Linkedin} alt='social icon' />
           LinkedIn
         </button>
       </div>
